@@ -1,1 +1,10 @@
- 
+### Get all tasks (to see IDs)
+GET http://localhost:9000/tasks
+
+### Delete specific task
+DELETE http://localhost:9000/tasks
+Content-Type: application/json
+
+{
+    "id": "1234"
+} 
